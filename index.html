@@ -22,14 +22,13 @@
                         <div id ='dot-3' class='browser-dot'></div>
                     </div>
                     <ul id='navigation'>
-                        <li><a href='#'>Contact</a></li>
-                        <li><a href='#'>Contact</a></li>
-                        <li><a href='#'>Contact</a></li>
+                        <!--<li><a href='#'>Contact</a></li> -->
+                        
                     </ul>
                 </div>
 
                 <div class='left-column'>
-                    <img id = 'profile_pic' src = 'images/profile-image.png' >
+                    <img id = 'profile_pic' src = 'images/profile.jfif' >
                     <h5 style='text-align: center;line-height: 0;'>Personalize Theme </h5>
                     
                     <div id='theme-options-wrapper'>
@@ -42,16 +41,21 @@
                 </div>
 
                 <div class='right-column'>
-                    <div id='preview-shadow'>
+                    <div id='preview-shadow' class='shadow'>
                         <div id='preview'>
                             <div class='corner' id='corner-tl'></div>
                             <div class='corner' id='corner-tr'></div>
                             <h3>About me </h3>
-                            <p>Computer Science graduate</p>
+                            <p>Recent Computer Science graduate with a love for UI Design and Software Development</p>
                             <div class='corner' id='corner-br'></div>
                             <div class='corner' id='corner-bl'></div>
                         </div>
+                        <div class='info-responsive'>
+                            <h3>About me </h3>
+                            <p>Recent Computer Science graduate with a love for UI Design and Software Development</p>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -61,18 +65,21 @@
         <div class='main-container'>
             <div class='about-wrapper'>
                 <div class='about-me'>
-                    <h4>More about me</h4>
+                    <h4>More About Me</h4>
 
-                    <p></p>
-                    <p></p>
+                    <p>I have been coding for the last 6 years in various languages 
+                        working on my studies at college and then university and also on various personal projects
+                         that I love to build to keep broadening my horizons. </p>
+                    <p>After graduating I am now looking for new opportunities working in 
+                        Software Engineering, DevOps and other related disciplines.
+                    </p>
 
-                </div>
-
-                <br>
-
-                <h4>TOP SKILLS</h4>
-                <p> about top skills.... <a target='_blank' href="">Download CV</a> </p>
                 
+                <br>    
+                <hr>
+                
+                <h4>Top Skills</h4>
+                <p>For more details please <a target="_blank" rel="noopener noreferrer" href="Luke CV 2021.pdf">Download CV</a> </p>
                 <div id="skills">
                     <ul>
                         <li>Java</li>
@@ -88,12 +95,30 @@
                         <li>NPM</li>
                         <li>ITIL</li>
                         <li>Adobe XD</li>
-                        
                     </ul>
                 </div>
-
+            </div>
+            
                 <div class='social-links'>
-
+                    <h4>Find Me On</h4>
+                    <div class='social-wrapper'>
+                    <div class="social"
+                     onclick="window.location='https://github.com/Luke-Pixel?tab=repositories';">
+                        <img class='social-img' src='images/github.png'>
+                        <h6 style="text-align: center;">Github</h6>
+                    </div>
+                    <div class='social'
+                    onclick="window.location='https://www.linkedin.com/in/luke-tyson-b81430167/';">
+                        <img class='social-img' src='images/linkedin.png'>
+                        <h6 style="text-align: center;">LinkedIn</h6>
+                    </div>
+                    <div class='social'>
+                        <a  href="mailto:lukeool76@gmail.com? subject=text">
+                        <img class='social-img' src='images/gmail.png'>
+                        <h6 style="text-align: center;">Email</h6>
+                        </a>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -101,40 +126,81 @@
     
     <section class='s1'>
         <div class='main-container'>
-            <h3 style='text-align: center;'>Some of my projects</h3>
+            <h3 style='text-align: center;'>Some Of My Projects</h3>
 
             <div>
                 <div class='post-wrapper'>
-                    <div class='post'>
-                        <img class='thumbnail' src=''>
-                        <div class='post-preview'>
-                            <h6 class='post-title'>Post Title</h6>
-                            <p class='post-intro'>Project Description goes here </p>
+
+                    <div>
+                        <div class='post'>
+                            <img class='thumbnail' src='images/project1.png'>
+                            <div class='post-preview'>
+                                <h6 class='post-title'>Personal Website</h6>
+                                <p class='post-intro'>A personal portfolio website
+                                    built using default HTML, CSS
+                                    and javaScript. Maling use of CSS Grid and Flexbox 
+                                for responsive web design. </p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <a target="_blank" rel="noopener noreferrer" 
+                                href='https://github.com/Luke-Pixel/Portfolio-Site'>View Source</a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class='post'>
-                        <img class='thumbnail' src='images/covid_tracker.png'>
-                        <div class='post-preview'>
-                            <h6 class='post-title'>WorldWide Covid-19 Tracker</h6>
-                            <p class='post-intro'>Web based Covid-19 tracker using statistics from 
-                                the disease.sh API with a frontend bult using React </p>
+                    <div>
+                        <div class='post'>
+                            <img class='thumbnail' src='images/covid_tracker.png'>
+                            <div class='post-preview'>
+                                <h6 class='post-title'>Covid-19 Tracker</h6>
+                                <p class='post-intro'>Covid-19 tracker built using real
+                                    time data from the disease.sh
+                                    API with a front end made in
+                                    react making use of leaflet
+                                    maps to create an interactive
+                                    map displaying country by
+                                    country data.
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <a target="_blank" rel="noopener noreferrer" 
+                                href="https://github.com/Luke-Pixel/react-covid-tracker" >View Source</a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class='post'>
-                        <img class='thumbnail' src=''>
-                        <div class='post-preview'>
-                            <h6 class='post-title'>Post Title</h6>
-                            <p class='post-intro'>Project Description goes here </p>
+                    <div>
+                        <div class='post'>
+                            <img class='thumbnail' src='images/project3.png'>
+                            <div class='post-preview'>
+                                <h6 class='post-title'>Final Year Project</h6>
+                                <p class='post-intro'>Patient medical portal made
+                                    alongside the British STI & HIV
+                                    Association president for local
+                                    LGBT clinic patients to track
+                                    their clinic visits, immunisations
+                                    and access resources for help.
+                                    Built using HTML, CSS and PHP
+                                    alongside a PHP Mail library to
+                                    send notification emails.  </p>
+                                <br>
+                                <a target="_blank" rel="noopener noreferrer" 
+                                href='https://github.com/Luke-Pixel/Individual-Project'>View Source</a>
+                            </div>
                         </div>
                     </div>
-                
+
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- To be implemented
     <section class='s2'>
         <div class='main-container'>
             <h3 style='text-align: center;'>Get In Touch</h3>
@@ -156,6 +222,7 @@
             </form>
         </div>
     </section>
+    -->
 
     <script type="text/javascript" src="script.js"></script>
 
