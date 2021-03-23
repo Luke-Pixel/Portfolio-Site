@@ -168,8 +168,17 @@ h6 { font-size: 16px; }
     border-width: 5px;
 }
 
-#light-mode{
+#light-mode, #system{
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#system img{
+    
+    object-fit: cover;
+    height: 1.25rem;
 }
 #dark-mode{
     background-color: #192734;
